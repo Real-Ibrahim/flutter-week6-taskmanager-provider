@@ -1,16 +1,21 @@
-# provider_app_week6
+# Flutter Week 6: Task Manager with Provider
 
-A new Flutter project.
+A refactored Task Management App using Provider for state management, with animations and persistence.
 
-## Getting Started
+## Features
+- Manages tasks (add, delete, mark complete) using Provider.
+- Persists tasks with `shared_preferences`.
+- Fade-in animations for tasks.
+- Optimized UI updates with `Consumer`.
 
-This project is a starting point for a Flutter application.
+## Setup Instructions
+1. Clone: `git clone https://github.com/Real-Ibrahim/flutter-week6-taskmanager-provider`
+2. Navigate: `cd provider_app_week6`
+3. Install: `flutter pub get`
+4. Run: `flutter run`
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Prerequisites
+- Flutter SDK
+- Emulator or device
